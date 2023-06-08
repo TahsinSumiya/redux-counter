@@ -2,12 +2,14 @@
 import './App.css';
 import { useState } from 'react';
 import Counter from './features/Counter/Counter';
-import Coin from './features/Counter/Coin';
+
+import Theme from './features/theme/Theme';
 function App() {
   return (
     <>
     <Counter/>
-    <Coin/>
+    
+    <Theme/>
     </>
    
   );
